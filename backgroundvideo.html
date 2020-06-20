@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="vidplay.css">
+	<script type="text/javascript">
+		function slide()
+		{
+			document.getElementById("slidebar").classList.toggle('active');
+		}
+	</script>
+</head>
+<body>
+	<div class="vidplay">
+		<video src="cover.mp4" autoplay="true" loop="true" muted="true" >
+			
+		</video>
+	</div>
+
+	
+	<nav id="slidebar">
+		<div class="toggle" onclick="slide()">
+			<span></span>
+			<span></span>
+			<span></span>
+			
+		</div>
+		<ul>
+			
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">EMAIL</a></li>
+			<li><a href="#">FAQ ?</a></li>
+
+		</ul>
+	</nav>
+	
+
+
+</body>
+</html>
